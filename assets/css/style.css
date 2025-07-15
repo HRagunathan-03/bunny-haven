@@ -23,3 +23,12 @@ h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
+/* Header */
+#hero {
+    background: url(../images/rabbit-hero.webp);
+    height: 700px;
+    width: 100%;
+    position: relative;
+
+}
