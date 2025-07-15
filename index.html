@@ -24,16 +24,56 @@
 
 </head>
 
-<body>
+<!-- The classes on the body work with mt-auto on the footer, to keep the footer at the bottom of the page.-->
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-     <div>Navigation</div>
+    <div>Navigation</div>
 
-     <!-- Header -->
-      <header class="container">
+    <!-- Header -->
+    <header class="container">
         <div class="row">
-            <div id="hero" class="col-12">Hero image with quote</div>
+            <div class="col-12 col-xl-6">About Bunny Haven</div>
+            <div class="col-12 col-xl-6">Main Image</div>
         </div>
-      </header>
+    </header>
+
+    <!-- Main element holds all key sections of the home page. It is not part of the grid structure.-->
+     <main>
+        <!-- Adoption Section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Adopt Heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Card</div>
+
+            </div>
+        </section>
+        
+        <!-- Rehome Section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-xl-6">Rehome</div>
+                <div class="col-12 col-xl-6">Carousel of testimonials</div>
+            </div>
+        </section>
+     </main>
+
+     <!-- Footer (Contact Section)-->
+      <!-- mt-auto class added to push the footer down -->
+      <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact Heading</div>
+                <!-- Contact Information -->
+                <div class="col-12 col-md-6 col-xl-4">Address & Social Links</div>
+                <div class="col-12 col-md-6 col-xl-4">Opening Hours</div>
+            </div>
+        </div>
+      </footer>
+
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
