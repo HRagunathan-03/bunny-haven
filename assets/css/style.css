@@ -7,12 +7,13 @@
     --primary-font: "Quicksand", sans-serif;
     --secondary-font: "Sofadi One", system-ui;
     --primary-color: #306318; /* Dark-Green */
-    --hg-color: #dfa4b6; /* Mid-Pink */
+    --highlight-color-light: #dfa4b6; /* Mid-Pink */
     --secondary-color: #86b570; /* Mid-Green */
-    --pink-highlight-color: #b34f3d; /* Dark-Pink */
+    --highlight-color: #b34f3d; /* Dark-Pink */
     
 }
 
+/* Global Styles */
 body {
     font-family: var(--primary-font);
 }
@@ -22,6 +23,16 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--highlight-color-light);
+}
+
+.logo {
+    width: 60px;
+    opacity: 0.6;
 }
 
 /* Header */

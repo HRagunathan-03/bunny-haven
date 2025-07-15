@@ -13,5 +13,7 @@ Creating an informative, clear, and easy to navigate website will suppport the p
 ### Sources
 Code Institute Boardwalk Games Project Board
 
+<a href="https://www.freepik.com/free-vector/flat-design-bunny-outline-illustration_22375797.htm">Image by freepik</a>
+Code for responsive logo - stack overflow thread
 
 
