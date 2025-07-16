@@ -18,12 +18,11 @@ body {
     font-family: var(--primary-font);
 }
 
-h1,
-h2,
-h3 {
+h1 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
 
 .sub-heading-color {
     color: var(--highlight-color);
@@ -45,6 +44,13 @@ h3 {
 }
 
 /* Header */
+
+
+/* Main */
+/* Adoption Section */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* Test Grid */
 /* .container,
