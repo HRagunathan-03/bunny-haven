@@ -25,6 +25,15 @@ h3 {
     color: var(--primary-color);
 }
 
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--highlight-color-light);
@@ -32,10 +41,11 @@ h3 {
 
 .logo {
     width: 60px;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 /* Header */
+
 /* Test Grid */
 /* .container,
 .row {
