@@ -78,7 +78,37 @@ h2 {
 #meet-bunny .card {
     margin-bottom: 1.5rem;
 }
+/* Footer / Contact Us Section */
+#contact {
+    background-color: var(--highlight-color-light);
+    color: black;
+    padding-bottom: 3rem;
+}
 
+#contact h2 {
+    color: black;
+}
+
+#contact h3 {
+    color: var(--primary-color);
+}
+
+#contact i {
+    color: var(--highlight-color);
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--primary-color);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+
+}
 /* Media Queries */
 
 /* Medium devices (tablets, 768px and up) */
