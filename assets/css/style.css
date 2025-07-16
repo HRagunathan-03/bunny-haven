@@ -54,32 +54,39 @@ h2 {
 /* Adoption Section */
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.3);
-
 }
 
 
 /* Rehome Section */
-#rehome-text {
-    margin-top: 100px;
-
-}
-
-.card {
+#rehome .card {
     border: none;
 }
 
-.card-body {
-    border: 1px solid var(--secondary-color);
-    margin-bottom: 10px;
+#rehome .card-body {
+    border: 2px solid var(--primary-color);
+    margin-bottom: 1.5rem;
 }
 
-/* Test Grid */
-/* .container,
-.row {
-    border: 2px solid black;
+
+/* Adopt Page */
+
+/* Meet Our Bunnnies Section*/
+#meet-bunny .card-body {
+    border: 2px solid var(--primary-color);
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
+#meet-bunny .card {
+    margin-bottom: 1.5rem;
+}
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Make all service cards the same height to correct alignment */
+    #meet-bunny .card-body {
+        min-height: 212.31px;
+    } 
+} 
+
+/* Large devices (small laptops, 992px and up) */
