@@ -109,6 +109,10 @@ h2 {
     color: var(--secondary-color);
 
 }
+
+#contact .table-warning * {
+    background-color: transparent;
+}
 /* Media Queries */
 
 /* Medium devices (tablets, 768px and up) */
