@@ -52,6 +52,21 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Rehome Section */
+#rehome-text {
+    margin-top: 100px;
+
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    border: 1px solid var(--secondary-color);
+    margin-bottom: 10px;
+}
+
 /* Test Grid */
 /* .container,
 .row {
