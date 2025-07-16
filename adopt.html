@@ -28,7 +28,33 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/bunny-logo.webp" alt="Bunny Haven Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="adopt.html">Adopt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rehome.html">Rehome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header class="container">
@@ -38,7 +64,7 @@
     </header>
 
     <!-- Main element holds all key sections of the adopt page. It is not part of the grid structure.-->
-     <main>
+    <main>
         <!-- Netherland Dwarf Rabbits -->
         <section class="container">
             <div class="row">
@@ -48,7 +74,7 @@
         </section>
 
         <!-- Lionhead Rabbits -->
-         <section class="container">
+        <section class="container">
             <div class="row">
                 <div class="col-12 col-xl-6">Lionhead Rabbits</div>
                 <div class="col-12 col-xl-6">Carousel</div>
@@ -56,7 +82,7 @@
         </section>
 
         <!-- Lop Eared Rabbits -->
-         <section class="container">
+        <section class="container">
             <div class="row">
                 <div class="col-12 col-xl-6">Lop Eared Rabbits</div>
                 <div class="col-12 col-xl-6">Carousel</div>
@@ -64,8 +90,8 @@
         </section>
 
         <!-- Get In Touch Form Link -->
-         <div>Button</div>
-     </main>
+        <div>Button</div>
+    </main>
 
     <!-- Footer (Contact Section)-->
     <!-- mt-auto class added to push the footer down -->
