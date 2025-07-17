@@ -16,6 +16,7 @@
 /* Global Styles */
 body {
     font-family: var(--primary-font);
+    padding-top: 63.19px; /* Push the top of the header down so that it can be seen with the fixed navbar */
 }
 
 h1 {
