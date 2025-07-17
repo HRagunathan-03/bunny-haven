@@ -80,8 +80,6 @@ h2 {
     margin-top: 4px;
 }
 
-/* Header */
-
 /* Main */
 /* Adoption Section */
 .carousel-caption {
@@ -104,7 +102,6 @@ h2 {
 }
 
 /* Adopt Page */
-
 /* Meet Our Bunnnies Section*/
 #meet-bunny .card-body {
     border: 2px solid var(--primary-color);
@@ -159,8 +156,18 @@ h2 {
     /* Make all service cards the same height to correct alignment */
     #meet-bunny .card-body {
         min-height: 212.31px;
-    } 
+    }
+
+    #carousel-adopt {
+    margin-top: 17.5%;
+    }
 
 } 
 
 /* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #carousel-adopt {
+    margin-top: 0;
+    }
+
+}

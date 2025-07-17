@@ -1,9 +1,9 @@
 
 # Bunny Haven
 
-The primary goals of the business is to increase the number of adopted rabbits and decrease the number of abandoned rabbits.
+The primary goal of this website is to find a new home for rabbits that have been abandoned, rabbits that have been rescued, and rabbits that need to be rehomed.
 
-Creating an informative, clear, and easy to navigate website will suppport the primary goals.
+Creating an informative, clear, and easy to navigate website will suppport the primary goal.
 
 ## User Stories
 
