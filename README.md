@@ -24,6 +24,16 @@ Creating an informative, clear, and easy to navigate website will suppport the p
 
 ###Automated Testing
 
+- Testing with Lighthouse on DevTools showed the following scores:
+1. Performance - 78 (Incognito mode shows a score of 93)
+2. Accessibility - 100
+3. Best Practices - 100    
+      
+- Any remaining performace issues are yet to be fixed (as I have run out of time). 
+
+- Checking the html code with the W3C html validator showed no issues.
+
+- Checking the css code with the W3C css validator showed no issues.
 
 
 
