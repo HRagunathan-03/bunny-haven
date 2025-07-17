@@ -113,6 +113,10 @@ h2 {
 #meet-bunny .card {
     margin-bottom: 1.5rem;
 }
+
+#meet-bunny .button-center {
+    text-align: center;
+}
 /* Footer / Contact Us Section */
 #contact {
     background-color: var(--highlight-color-light);
