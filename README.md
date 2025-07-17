@@ -31,9 +31,11 @@ Creating an informative, clear, and easy to navigate website will suppport the p
       
 - Any remaining performace issues are yet to be fixed (as I have run out of time). 
 
-- Checking the html code with the W3C html validator showed no issues.
+- Checking the HTML code with the W3C HTML validator showed no issues.
 
-- Checking the css code with the W3C css validator showed no issues.
+- Used the Autoprefixer tool to add prefixes to the CSS code.
+
+- Checking the CSS code with the W3C CSS validator showed no issues.
 
 
 
