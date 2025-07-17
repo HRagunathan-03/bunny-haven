@@ -20,6 +20,12 @@ Creating an informative, clear, and easy to navigate website will suppport the p
 - On smaller screens, clicking on the burger icon opens the dropdown, but hides the page content.
 *Used the Javascript code provided for the Boardwalk Games project, to close the navbar once the user has clicked the link.*
 
+- Testing the Adopt page showed that the cards in the "Meet the bunnies" page are not centered on smaller screen. This issue is yet to be fixed.
+
+###Automated Testing
+
+
+
 
 ### Sources
 Code Institute Boardwalk Games Project Board
