@@ -134,7 +134,7 @@
                     <p>Bunny Haven offers a wonderful variety of rabbits to adopt. From Netherland Dwarf to
                         Lionhead, you are certain to find the one you are looking for.</p>
                     <p>Visit our adoption page to see our fluffy friends.<br>
-                    You won't be disappointed!</p>
+                        You won't be disappointed!</p>
                 </div>
 
 
@@ -281,6 +281,28 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/e533e26478.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
 
 </body>
 
