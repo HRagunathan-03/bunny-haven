@@ -11,9 +11,15 @@ Creating an informative, clear, and easy to navigate website will suppport the p
 
 - As a rabbit lover that is looking to adopt, I would like a dedicated page for rabbits that are looking for a new home, so that I can find my forever bunny easily, and adopt it!
 
-- Once I have found a rabbit to adopt, I would like to contact Bunny Haven to start the adoption process.
+![Meet Our Bunnies](<assets/images/Meet Our Bunnies.png>)
+
+- Once I have found a rabbit to adopt, I would like to contact Bunny Haven to make enquiries and start the adoption process.
+
+![Get In Touch](<assets/images/Get In Touch.png>)
 
 - As someone looking to rehome their rabbits, I would like to be able to find the location and contact information of Bunny Haven, so that I can get in touch or visit.
+
+![Contact Us](<assets/images/Contact Us.png>)
 
 ### Design Choices
 
