@@ -31,7 +31,8 @@ The cards for the Adopt page were chosen to display the available rabbits in a n
 
 ### Manual Testing
 
-- Tested carousel on the Homepage. Autoplay is working. The previous/next controls and indicators are all working correctly.
+- Tested carousel on the Homepage. Autoplay is working. The previous/next controls and indicators were not working correctly.
+*This was fixed by correcting the carousel id.*
 
 - Tested responsiveness across different screen sizes and noticed that there were some alignment issues on the "Adopt a bunny" section on tablet screens. 
 *This issue was fixed by targeting the carousel-adopt id in the media queries.*
@@ -76,6 +77,7 @@ The cards for the Adopt page were chosen to display the available rabbits in a n
 7. [Imagecolorpicker](https://imagecolorpicker.com/) for picking colours for the website.
 8. [WebAim](https://webaim.org/resources/contrastchecker/) for checking the web accesibility of the chosen colours.
 9. [Font Awesome](https://fontawesome.com/) for the icons.
+10. Code2020 on YouTube for instructions on how to add screenshots/images to the readme file.
 
 ## Project Deployment   
 
