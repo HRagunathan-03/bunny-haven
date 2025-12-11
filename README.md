@@ -1,23 +1,27 @@
 
 # Bunny Haven
 
-The primary goal of this website is to find a new home for rabbits that have been abandoned, rabbits that have been rescued, and rabbits that need to be rehomed.
+The primary goal of this website is to find a new home for rabbits that have been abandoned, rabbits that have been rescued, and rabbits that need to be rehomed. This site will be useful to individuals/families that are either looking to provide a home for a rabbit, or looking to rehome their own rabbit.
 
-Creating an informative, clear, and easy to navigate website will suppport the primary goal.
+Creating an informative, clear, and easy to navigate website will suppport the primary goal. 
 
 ## User Stories
 
-- As someone who is thinking of adopting a rabbit, I would like to be able to navigate the website intuitively, on any device, so that I am able to find the information I need quickly.
+- As someone who is thinking of adopting a rabbit, I would like to be able to navigate the website intuitively, on any device, so that I am able to find the information I need quickly. 
+*The website has a navigation bar that allows the user to easily find what they are looking for.*
 
 - As a rabbit lover that is looking to adopt, I would like a dedicated page for rabbits that are looking for a new home, so that I can find my forever bunny easily, and adopt it!
+*The "Meet Our Bunnies" page contains pictures of bunnies that are available. Each picture is accompanied with a short description to help the user decide which bunny to choose.*
 
 ![Meet Our Bunnies](<assets/images/Meet Our Bunnies.png>)
 
 - Once I have found a rabbit to adopt, I would like to contact Bunny Haven to make enquiries and start the adoption process.
+*The "Get In Touch" page enables the user to contact Bunny Haven easily and make enquiries regarding adoption or rehoming. The button for this page is on the navigation bar. The contrasting colour of the button makes it stand out on the navigation bar, allowing the user to see it easily.*
 
 ![Get In Touch](<assets/images/Get In Touch.png>)
 
 - As someone looking to rehome their rabbits, I would like to be able to find the location and contact information of Bunny Haven, so that I can get in touch or visit.
+*The "Contact Us" section is present on the bottom of each page across the website. This allows the user to find these details effortlessly.*
 
 ![Contact Us](<assets/images/Contact Us.png>)
 
@@ -37,6 +41,17 @@ The cards for the Adopt page were chosen to display the available rabbits in a n
 
 ### Manual Testing
 
+**Procedure:**
+For each page of the website:
+- Read the written content carefully and check for errors.
+- Ensure that all links in the navigation bar are working properly, and directing the user to the correct information/page.
+- Check each link in the "Contact Us" section is redirecting the user to the correct social stream.
+- Check that all input fields on the form are accepting the correct type of input, and that the form can only be submitted when all fields are filled in accurately.
+- Check the carousel slides automatically, and that it works as intended for the user.
+- Ensure that the website displays in the right format on different screen sizes.
+
+
+**Results:**
 - Tested carousel on the Homepage. Autoplay is working. The previous/next controls and indicators were not working correctly.
 *This was fixed by correcting the carousel id.*
 
@@ -54,6 +69,8 @@ The cards for the Adopt page were chosen to display the available rabbits in a n
 - Testing the Adopt page showed that the cards in the "Meet the bunnies" page are not centered on smaller screen. This issue is yet to be fixed.
 
 - Checked "Get in touch" form to ensure that HTML validation is working.
+
+- Checked that the deployed site is working as intended.
 
 ### Automated Testing
 
@@ -84,12 +101,13 @@ The cards for the Adopt page were chosen to display the available rabbits in a n
 8. [WebAim](https://webaim.org/resources/contrastchecker/) for checking the web accesibility of the chosen colours.
 9. [Font Awesome](https://fontawesome.com/) for the icons.
 10. Code2020 on YouTube for instructions on how to add screenshots/images to the readme file.
+11. Pam Tech Coding on YouTube for instructions on how to deploy to github pages.
 
 ## Project Deployment   
 
 To create and deploy a project, please use the following steps:
 
-**Steps:**
+**Steps to create a project:**
 
 1. Open GitHub and click on the green button to create a new repository.
 2. Choose a repository name, and make sure to select "public".
@@ -100,9 +118,15 @@ To create and deploy a project, please use the following steps:
 7. Open the terminal, paste the copied code (from GitHub) and press enter.
 8. Create HTML and CSS files.
 9. Write, commit and push your code.
-10. On GitHub, click "settings" and then "pages".
-11. For "source", select "deploy from a branch". For "branch", select "main". Then click "save".
-12. You have now created and deployed a new project.       
+       
+
+**Steps to deploy a project:**
+
+1. On GitHub, open the repository that you would like to deploy to Github Pages.
+2. Select "Settings", and then "Pages".
+3. For "Source", select "Deploy from a branch". 
+4. For "Branch", select "Main". Then click "Save".
+5. You have now deployed your project (This can take a few minutes).
    
 ## Wireframes  
 
