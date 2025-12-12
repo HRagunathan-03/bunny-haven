@@ -139,13 +139,17 @@ To create and deploy a project, please use the following steps:
    
 ## Wireframes  
 
-[Homepage](https://share.balsamiq.com/c/3pMY959Y4SQUA2FKYMH47s.jpg)    
+![wireframe-home](assets/images/wireframe-home.png)
 
-[About](https://share.balsamiq.com/c/1WQvYkuQmwqytXkaqeiwFk.jpg)
+![home-large](assets/images/home-laptop.png)
 
-[Get In Touch](https://share.balsamiq.com/c/wFc2N2iU3Bzrh7SUNVTTpr.jpg)
+![wireframe-adopt](assets/images/wireframe-adopt.png)
 
+![adopt-large](assets/images/adopt-laptop.png)
 
+![wireframe-rehome](assets/images/wireframe-rehome.png)
+
+![rehome-large](assets/images/rehome-laptop.png)
 
   
 
