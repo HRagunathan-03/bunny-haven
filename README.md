@@ -1,9 +1,9 @@
 
 # Bunny Haven
 
-The primary goal of this website is to find a new home for rabbits that have been abandoned, rabbits that have been rescued, and rabbits that need to be rehomed. This site will be useful to individuals/families that are either looking to provide a home for a rabbit, or looking to rehome their own rabbit.
+The primary goal of this website is to find a new home for rabbits that have been abandoned, rabbits that have been rescued, and rabbits that need to be rehomed. This site will be useful to users that are either looking to provide a home for a rabbit, or looking to rehome their own rabbit.
 
-Creating an informative, clear, and easy to navigate website will suppport the primary goal. 
+Creating an informative, clear, and easy to navigate website will suppport the primary goal. It will mean that users can quickly find the information they need with ease, and can contact Bunny Haven to rehome/adopt a rabbit.
 
 ## User Stories
 
@@ -11,19 +11,22 @@ Creating an informative, clear, and easy to navigate website will suppport the p
 *The website has a navigation bar that allows the user to easily find what they are looking for.*
 
 - As a rabbit lover that is looking to adopt, I would like a dedicated page for rabbits that are looking for a new home, so that I can find my forever bunny easily, and adopt it!
+
 *The "Meet Our Bunnies" page contains pictures of bunnies that are available. Each picture is accompanied with a short description to help the user decide which bunny to choose.*
 
-![Meet Our Bunnies](<assets/images/Meet Our Bunnies.png>)
+![meet-our-bunnies](assets/images/meet-our-bunnies.png)
 
 - Once I have found a rabbit to adopt, I would like to contact Bunny Haven to make enquiries and start the adoption process.
+
 *The "Get In Touch" page enables the user to contact Bunny Haven easily and make enquiries regarding adoption or rehoming. The button for this page is on the navigation bar. The contrasting colour of the button makes it stand out on the navigation bar, allowing the user to see it easily.*
 
-![Get In Touch](<assets/images/Get In Touch.png>)
+![get-in-touch](assets/images/get-in-touch.png)
 
 - As someone looking to rehome their rabbits, I would like to be able to find the location and contact information of Bunny Haven, so that I can get in touch or visit.
+
 *The "Contact Us" section is present on the bottom of each page across the website. This allows the user to find these details effortlessly.*
 
-![Contact Us](<assets/images/Contact Us.png>)
+![contact-us](assets/images/contact-us.png)
 
 ### Design Choices
 
@@ -75,17 +78,23 @@ For each page of the website:
 ### Automated Testing
 
 - Testing with Lighthouse on DevTools showed the following scores:
-1. Performance - 78 (Incognito mode shows a score of 90)
+1. Performance - 93
 2. Accessibility - 100
 3. Best Practices - 100    
+
+![lighthouse-results](assets/images/lighthouse-results.png)
       
 - Any remaining performace issues are yet to be fixed. 
 
-- Checking the HTML code with the W3C HTML validator showed no issues.
+- Checking the HTML code with the Nu HTML validator showed no issues.
+
+![html-validation](assets/images/html-validation.png)
 
 - Used the Autoprefixer tool to add prefixes to the CSS code.
 
 - Checking the CSS code with the W3C CSS validator showed no issues.
+
+![css-validation](assets/images/css-validation.png)
 
 
 
@@ -142,6 +151,8 @@ To create and deploy a project, please use the following steps:
 
 
 #### Project created by Hamshini Ragunathan
+
+
 [Bunny Haven](https://hragunathan-03.github.io/bunny-haven/) - This is a link to the deployed project.
 
 
